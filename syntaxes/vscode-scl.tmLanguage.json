@@ -46,8 +46,8 @@
 					"match": "(?i)\\b(and|or|xor|not)\\b"
 				},
 				{
-					"name": "variable.regexp.scl",
-					"match": "\\#.\\w*(?!\\()\\b[.]\\w.*?\\b|\\#\\D.\\w*(?!\\()\\b|\\.\\w*|\\.\\w*"
+  					"name": "variable.regexp.scl",
+  					"match": "\\#[A-Za-z_]\\w*(?!\\()\\b(\\.\\w+\\b)*|\\.\\w+"
 				},
 				{
 					"name": "variable.regexp.scl",
